@@ -6,7 +6,7 @@ body {
 
 .btn-primary {
     border-radius: 5px;
-    background: #FD6E0A;
+    background: hotpink;
     border: 0;
     color: white;
     font-size: 20px;
@@ -19,6 +19,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 226px;
 }
 
 nav>ul {
@@ -46,5 +47,23 @@ nav a {
 }
 
 .colored-text {
-    color: #FD6E0A;
+    color: hotpink;
+}
+
+/* header related styles */
+.header {
+    background-color: #FFF8F3;
+    ;
+}
+
+.banner {
+    padding: 38px 38px 23px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic {
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
 }
