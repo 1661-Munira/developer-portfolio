@@ -12,6 +12,20 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 36px;
+    margin-right: 30px;
+
+}
+
+.btn-secondary {
+    border-radius: 5px;
+    background: #FFFFFF;
+    border-color: hotpink;
+    color: hotpink;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 36px;
+    margin-right: 30px;
+
 }
 
 /* nav related styles */
@@ -53,17 +67,44 @@ nav a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
-    ;
+    background-image: url('../images/header_bg1.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-    padding: 38px 38px 23px 150px;
+    padding: 38px 0px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 470px;
+}
+
+.banner-greeting {
+    color: var(--Dark-02, #474747);
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
 }
 
 .banner .profile-pic {
-    width: 584px;
+    width: 700px;
     height: 676px;
     flex-shrink: 0;
 }
